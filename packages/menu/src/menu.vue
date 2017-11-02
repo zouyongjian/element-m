@@ -13,8 +13,8 @@
   </el-menu-collapse-transition>
 </template>
 <script>
-  import emitter from 'element-ui/src/mixins/emitter';
-  import { addClass, removeClass, hasClass } from 'element-ui/src/utils/dom';
+  import emitter from 'element-m/src/mixins/emitter';
+  import { addClass, removeClass, hasClass } from 'element-m/src/utils/dom';
 
   export default {
     name: 'ElMenu',

@@ -30,10 +30,10 @@
   </div>
 </template>
 <script>
-  import ElInput from 'element-ui/packages/input';
-  import Clickoutside from 'element-ui/src/utils/clickoutside';
+  import ElInput from 'element-m/packages/input';
+  import Clickoutside from 'element-m/src/utils/clickoutside';
   import ElAutocompleteSuggestions from './autocomplete-suggestions.vue';
-  import Emitter from 'element-ui/src/mixins/emitter';
+  import Emitter from 'element-m/src/mixins/emitter';
 
   export default {
     name: 'ElAutocomplete',
