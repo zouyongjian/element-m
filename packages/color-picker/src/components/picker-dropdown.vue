@@ -21,8 +21,8 @@
   import SvPanel from './sv-panel';
   import HueSlider from './hue-slider';
   import AlphaSlider from './alpha-slider';
-  import Popper from 'element-m/src/utils/vue-popper';
-  import Locale from 'element-m/src/mixins/locale';
+  import Popper from 'element-ui/src/utils/vue-popper';
+  import Locale from 'element-ui/src/mixins/locale';
 
   export default {
     name: 'el-color-picker-dropdown',

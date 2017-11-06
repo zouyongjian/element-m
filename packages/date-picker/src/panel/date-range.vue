@@ -148,10 +148,10 @@
 
 <script type="text/babel">
   import { nextMonth, prevMonth, toDate, formatDate, parseDate } from '../util';
-  import Locale from 'element-m/src/mixins/locale';
+  import Locale from 'element-ui/src/mixins/locale';
   import TimePicker from './time';
   import DateTable from '../basic/date-table';
-  import ElInput from 'element-m/packages/input';
+  import ElInput from 'element-ui/packages/input';
 
   const calcDefaultValue = defaultValue => {
     if (Array.isArray(defaultValue)) {

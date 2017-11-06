@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import Popper from 'element-m/src/utils/vue-popper';
-import { on, off } from 'element-m/src/utils/dom';
+import Popper from 'element-ui/src/utils/vue-popper';
+import { on, off } from 'element-ui/src/utils/dom';
 
 export default {
   name: 'ElPopover',

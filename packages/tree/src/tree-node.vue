@@ -45,9 +45,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'element-m/src/transitions/collapse-transition';
-  import ElCheckbox from 'element-m/packages/checkbox';
-  import emitter from 'element-m/src/mixins/emitter';
+  import ElCollapseTransition from 'element-ui/src/transitions/collapse-transition';
+  import ElCheckbox from 'element-ui/packages/checkbox';
+  import emitter from 'element-ui/src/mixins/emitter';
 
   export default {
     name: 'ElTreeNode',

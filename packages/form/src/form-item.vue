@@ -17,7 +17,7 @@
 </template>
 <script>
   import AsyncValidator from 'async-validator';
-  import emitter from 'element-m/src/mixins/emitter';
+  import emitter from 'element-ui/src/mixins/emitter';
 
   function noop() {}
 
