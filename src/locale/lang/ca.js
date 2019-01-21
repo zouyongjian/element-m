@@ -16,6 +16,10 @@ export default {
       startTime: 'Hora Inici',
       endDate: 'Data Final',
       endTime: 'Hora Final',
+      prevYear: 'Any anterior',
+      nextYear: 'Pròxim Any',
+      prevMonth: 'Mes anterior',
+      nextMonth: 'Pròxim Mes',
       year: 'Any',
       month1: 'Gener',
       month2: 'Febrer',
@@ -77,6 +81,7 @@ export default {
       error: 'Entrada invàlida'
     },
     upload: {
+      deleteTip: 'premi eliminar per descartar',
       delete: 'Eliminar',
       preview: 'Vista Prèvia',
       continue: 'Continuar'
