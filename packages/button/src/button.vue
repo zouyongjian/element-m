@@ -5,6 +5,7 @@
     :disabled="buttonDisabled || loading"
     :autofocus="autofocus"
     :type="nativeType"
+    :style="width ? ('width:' + width + 'px;height:'+ heihgt + 'px;padding:0;') : ''"
     :class="[
       type ? 'el-button--' + type : '',
       buttonSize ? 'el-button--' + buttonSize : '',
@@ -54,7 +55,9 @@
       plain: Boolean,
       autofocus: Boolean,
       round: Boolean,
-      circle: Boolean
+      circle: Boolean,
+      width: Number,//bxm修改
+      height: Number//bxm修改
     },
 
     computed: {
