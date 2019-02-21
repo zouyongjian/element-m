@@ -28,6 +28,12 @@
       :style="runwayStyle"
       @click="onSliderClick"
       ref="slider">
+      <div class="el-slider__side-tip el-slider__side-tip--left">
+        <slot name="left"></slot>
+      </div>
+      <div class="el-slider__side-tip el-slider__side-tip--right">
+        <slot name="right"></slot>
+      </div>
       <div
         class="el-slider__bar"
         :style="barStyle">

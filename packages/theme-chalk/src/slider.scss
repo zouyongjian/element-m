@@ -81,6 +81,22 @@
     }
   }
 
+  @include e(side-tip) {
+    position: absolute;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: $--slider-side-tip-color;
+    top: 50%;
+    transform: translateY(-50%);
+    &.el-slider__side-tip--left{
+        left: -20px;
+    }
+    &.el-slider__side-tip--right{
+        right: -20px;
+    }
+  }
+
   @include e(bar) {
     height: $--slider-height;
     background-color: $--slider-main-background-color;
