@@ -99,7 +99,10 @@
         <i v-if="showClose" class="el-select__caret el-input__icon el-icon-circle-close" @click="handleClearClick"></i>
       </template>
     </el-input>
+
+    <slot v-if="optionSlot"></slot>
     <transition
+      v-else
       name="el-zoom-in-top"
       @before-enter="handleMenuEnter"
       @after-leave="doDestroy">
@@ -302,6 +305,10 @@
       popperAppendToBody: {
         type: Boolean,
         default: true
+      },
+      optionSlot: {
+        type: Boolean,
+        default: false
       }
     },
 
